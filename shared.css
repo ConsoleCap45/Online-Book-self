@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #089da1;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+  }
+  
+  section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 8px 0;
+  }
+  
+  section nav ul{
+    list-style: none;
+  }
+  
+  section nav li{
+    display: inline-block;
+    padding: 0 10px;
+  }
+  
+  section nav li a{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  section nav li a:hover{
+    color: #089da1;
+  }
+  
+  section nav .social_icon i{
+    margin: 0 5px;
+    font-size: 18px;
+  }
+  
+  section nav .social_icon i:hover{
+    color: #089da1;
+    cursor: pointer;
+  }
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.img-card{
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+.card-body{
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+.Click{
+  background: #000000;
+  padding: 4px 7px;
+  position: relative;
+  font-weight: bolder;
+  border-radius: 1rem;
+  color: #FDF4F5;
+  text-decoration: none;
+}

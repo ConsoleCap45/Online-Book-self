@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+section nav{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 0 10px #089da1;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  z-index: 100;
+}
+
+section nav .logo img{
+  width: 100px;
+  cursor: pointer;
+  margin: 8px 0;
+}
+
+section nav ul{
+  list-style: none;
+}
+
+section nav li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+section nav li a{
+  text-decoration: none;
+  color: #000;
+}
+
+section nav li a:hover{
+  color: #089da1;
+}
+
+section nav .social_icon i{
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+section nav .social_icon i:hover{
+  color: #089da1;
+  cursor: pointer;
+}
+  section h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #000;
+  }
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 27rem);
+    gap:1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+ }
+ .box {
+  padding: 2rem;
+  text-align: center;
+  border: solid #2C3333;
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+  border-radius: 1px;
+  position: relative;
+}
+.request-box-container{
+  display: flex;
+  grid-template-columns: repeat(auto-fit, 27rem);
+  gap:1.5rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+.request-box{
+  padding: 2rem;
+  width: 62%;
+  text-align: center;
+  border: groove;
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+  border-radius: 1px;
+  position: relative;
+}
+.box img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+  .approve-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+  
+  .reject-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+  
+  footer {
+    background-color: #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer nav ul {
+    display: flex;
+  }
+  
+  footer nav li {
+    margin-right: 20px;
+  }
+  
+  footer nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .head{
+    box-shadow: inset 7px 7px 20px 0px #089da1;
+    border: inset;
+  }
